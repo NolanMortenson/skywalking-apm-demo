@@ -39,17 +39,6 @@ public class ProjectApplication {
             );
             teamMemberRepo.save(admin);
 
-            TeamMember admin2 = new TeamMember(
-                    "admin",
-                    "master",
-                    "admin@bah.com",
-                    "letMeInNow",
-                    null,
-                    Role.ADMIN,
-                    null
-            );
-            teamMemberRepo.save(admin2);
-
             TeamMember user1 = new TeamMember(
                     "Joe",
                     "Andro",
@@ -81,9 +70,9 @@ public class ProjectApplication {
             teamMemberRepo.save(user3);
 
             TeamMember user4 = new TeamMember(
-                    "Nolan",
-                    "Mortenson",
-                    "nmort@bah.com",
+                    "Noah",
+                    "Morris",
+                    "nmorris@bah.com",
                     "$2a$10$IehYSK1jjjyl3Rsccb0Ul.Iv3SODQ7FYVaT9/NeaBwkiiFEPWyDKW",
                     null,
                     Role.USER,
