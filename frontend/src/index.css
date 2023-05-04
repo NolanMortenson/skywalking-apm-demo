@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
+:root {
+  --teal: #016e6c;
+  --darkBlue: #253746;
+  --lightGray: D9D9D9;
+  --gray: #666666;
+  --brightGreen: #D1F35;
+
+  font-family: 'Akshar', sans-serif;
+}
+
+button {
+  border: none;
+  font: inherit;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
